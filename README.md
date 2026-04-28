@@ -20,26 +20,27 @@ A minimal GlueXML modification for **World of Warcraft 3.3.5a** that lets you de
 > ⚠️ This mod replaces core GlueXML files. Back up the originals before installing.
 
 1. Navigate to your WoW client folder
-2. Go to `Interface/GlueXML/`
-3. Replace the following files with the ones from this repository:
+2. Create the folder `Data/Interface/GlueXML/`
+3. Copy the following files with the ones from this repository:
    - `AccountLogin.lua`
    - `AccountLogin.xml`
-4. Create the folder `Interface/GlueXML/AutoLogin/` if it does not exist
+4. Create the folder `Data/Interface/GlueXML/AutoLogin/`
 5. Place `AutoLogin/Config.lua` inside it
 
 Final structure:
 ```
-Interface/
-  GlueXML/
-    AccountLogin.lua
-    AccountLogin.xml
-    AutoLogin/
-      Config.lua
+Data/
+  Interface/
+    GlueXML/
+      AccountLogin.lua
+      AccountLogin.xml
+      AutoLogin/
+        Config.lua
 ```
 
 ## Configuration
 
-Open `Interface/GlueXML/AutoLogin/Config.lua` in any text editor:
+Open `Data/Interface/GlueXML/AutoLogin/Config.lua` in any text editor:
 
 ```lua
 AUTOLOGIN_CHAR_ORDER = {
