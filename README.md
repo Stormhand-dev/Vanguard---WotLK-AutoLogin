@@ -4,10 +4,10 @@ A minimal GlueXML modification for **World of Warcraft 3.3.5a** that lets you de
 
 ## Features
 
+- **Standard credential handling** — account name and password are saved to `WTF/Config.wtf`, using the Remember Account Name and Remember Password checkboxes
 - **Character order** — define your preferred character order in a simple config file; the first character in the list is automatically selected on login
 - **UI cleanup** — removes Manage Account, Community Site, Credits, and Terms of Use buttons; repositions Options and Cinematics above Quit
 - **No SavedVariables, no dependencies** — everything is controlled through a single `Config.lua` file
-- **Credentials untouched** — login and password are handled normally by the client via `WTF/Config.wtf`
 
 ## Compatibility
 
