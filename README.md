@@ -13,7 +13,6 @@ A minimal GlueXML modification for **World of Warcraft 3.3.5a** that lets you de
 
 - World of Warcraft **3.3.5a** (Wrath of the Lich King)
 - Any private server running this client version
-- Does **not** require SuperWoW or any other client patch
 
 ## Installation
 
