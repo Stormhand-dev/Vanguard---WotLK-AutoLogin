@@ -14,6 +14,14 @@ A minimal GlueXML modification for **World of Warcraft 3.3.5a** that lets you de
 - World of Warcraft **3.3.5a** (Wrath of the Lich King)
 - Any private server running this client version
 
+## Requirement
+
+The standard WoW 3.3.5a client blocks edits to GlueXML files. You must patch your client before installing Vanguard.
+WoW 3.3.5 Patcher by #KUG
+https://github.com/anzz1/WoWPatcher335
+
+Run the patcher, enable Allow Interface Edits, and click Save. The other options (4GB RAM, Cast Bar Fix, Disable Cache, Custom Item Fix) are unrelated to this addon and can be left at your discretion.
+
 ## Installation
 
 > ⚠️ This mod replaces core GlueXML files. Back up the originals before installing.
